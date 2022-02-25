@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * 未实现，通过在ConfigurationPropertiesScan内填入具体路径，扫描文件获取数值
  * 参考文章：https://www.cnblogs.com/lql6/p/11792483.html
  */
-@Configuration
+//@Configuration
 //@ConfigurationPropertiesScan("classpath:config/application.properties")需要恢复
 public class Config1 {
 //    @Bean需要恢复

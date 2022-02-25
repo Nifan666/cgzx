@@ -12,11 +12,11 @@ import org.springframework.context.annotation.Configuration;
  *  需要在 @Configuration注解修饰的类中汇总，然后读取
  * 参考文章：https://www.cnblogs.com/lql6/p/11792483.html
  */
-@Configuration
+//@Configuration
 public class Config {
-    @Bean
-    @ConfigurationProperties(prefix = "myconfig")
-    public LocalConfig1 dp(){
-        return new LocalConfig1();
-    }
+//    @Bean
+//    @ConfigurationProperties(prefix = "myconfig")
+//    public LocalConfig1 dp(){
+//        return new LocalConfig1();
+//    }
 }

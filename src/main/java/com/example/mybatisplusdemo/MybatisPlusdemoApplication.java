@@ -15,11 +15,11 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class MybatisPlusdemoApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(MybatisPlusdemoApplication.class, args);
-        ConfigurableApplicationContext context =  SpringApplication.run(MybatisPlusdemoApplication.class, args);
-        getConfigValueMethod1(context);
-        getConfigValueMethod31(context);
-        getConfigValueMethod32(context);
+        SpringApplication.run(MybatisPlusdemoApplication.class, args);
+//        ConfigurableApplicationContext context =  SpringApplication.run(MybatisPlusdemoApplication.class, args);
+//        getConfigValueMethod1(context);
+//        getConfigValueMethod31(context);
+//        getConfigValueMethod32(context);
     }
 
     /**
